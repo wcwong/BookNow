@@ -35,6 +35,7 @@
         <sys_update_name>sys_ui_script_6d800cc4b37113009b67a13816a8dc03</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-05-02 01:21:37</sys_updated_on>
+        <ui_type/>
         <use_scoped_format>false</use_scoped_format>
     </sys_ui_script>
 </record_update>
