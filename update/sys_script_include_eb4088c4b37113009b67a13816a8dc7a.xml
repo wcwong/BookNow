@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_bn.PointAdder</api_name>
+        <caller_access/>
         <client_callable>false</client_callable>
         <description>Implements extension point x_bn.PointProvider
 Implement a method named getScriptName which returns the name of a UI script to load.</description>

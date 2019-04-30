@@ -9,5 +9,8 @@
         <index name="index">
             <element name="location"/>
         </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
     </element>
 </database>

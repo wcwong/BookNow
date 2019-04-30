@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="latitude" table="x_bn_location">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="x_bn_location">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
+        <calculation/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Latitude</column_label>
+        <column_label>Class</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:current.getTableName();</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,14 +22,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>latitude</element>
+        <element>sys_class_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">float</internal_type>
+        <internal_type display_value="">sys_class_name</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>80</max_length>
         <name>x_bn_location</name>
         <next_element/>
         <primary>false</primary>
@@ -51,17 +46,17 @@
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-04-25 15:40:43</sys_created_on>
-        <sys_id>4ecc62a2b3453300d66e85d516a8dcc5</sys_id>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-04-29 14:49:48</sys_created_on>
+        <sys_id>46cc62a2b3453300d66e85d516a8dcc9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Latitude</sys_name>
+        <sys_name>Class</sys_name>
         <sys_package display_value="BookNow" source="x_bn">fa506eb3b32113009b67a13816a8dc58</sys_package>
         <sys_policy/>
         <sys_scope display_value="BookNow">fa506eb3b32113009b67a13816a8dc58</sys_scope>
-        <sys_update_name>sys_dictionary_x_bn_location_latitude</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-29 14:49:49</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_bn_location_sys_class_name</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-04-29 14:49:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
