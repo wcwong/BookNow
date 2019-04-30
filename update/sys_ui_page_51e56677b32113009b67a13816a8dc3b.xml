@@ -140,31 +140,17 @@ function attachEvents(marker, point, type) {
 		var pinRegistry = {};
 	</script>
 	
-	<g2:evaluate var="jvar_scripts" object="true">
-		var script_names = [];
-		var eps = new GlideScriptedExtensionPoint().getExtensions("PointProvider");
-		eps.forEach(function(ep) {
-			try {
-				var path = ep.getScriptName();
-				if (path)
-					script_names.push( "/" + path + ".jsdbx");
-			} catch (e) {
-				gs.error("Unable to execute a PointProvider instance.");
-			}
-		});
-		
-		script_names;
-	</g2:evaluate>
-	<j2:forEach items="$[jvar_scripts]" var="jvar_script_path">
-		<script type="text/javascript" src="$[jvar_script_path]" />
-	</j2:forEach>
-	  
+
+	<script type="text/javascript" src="/x_bn.GeoPoint.jsdbx" />
+	<script type="text/javascript" src="/x_bn.GetPoints.jsdbx" />
+	<g:client_extension name="x_bn.PinRegistration" />
+	
   </head>
   <body>
     <div id="map" style="width: 45%; height: 100%;float:left"></div>
     <div id="pano" style="width: 45%; height: 100%;float:left"></div>
 
-    <script async="true" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgQJ4m9weVcboWCUNz5smsUk52aF6XGwA&amp;callback=initMap" />
+    <script async="true" defer="true" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD-5hd2lhZN2iw4lOCPtHlDP1IYp_ZVm8&amp;callback=initMap" />
   </body>
 </html>
 </j:jelly>]]></html>
@@ -174,13 +160,13 @@ function attachEvents(marker, point, type) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-04-25 15:42:53</sys_created_on>
         <sys_id>51e56677b32113009b67a13816a8dc3b</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Map</sys_name>
         <sys_package display_value="BookNow" source="x_bn">fa506eb3b32113009b67a13816a8dc58</sys_package>
         <sys_policy/>
         <sys_scope display_value="BookNow">fa506eb3b32113009b67a13816a8dc58</sys_scope>
         <sys_update_name>sys_ui_page_51e56677b32113009b67a13816a8dc3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-02 16:43:59</sys_updated_on>
+        <sys_updated_on>2019-04-30 14:06:17</sys_updated_on>
     </sys_ui_page>
 </record_update>
