@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_client_extension_instance">
     <sys_client_extension_instance action="INSERT_OR_UPDATE">
         <active>true</active>
-        <order>100</order>
+        <order>200</order>
         <point>x_bn.PinRegistration</point>
         <sys_class_name>sys_client_extension_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-04-30 15:50:50</sys_created_on>
         <sys_id>75544c07b3c13300d66e85d516a8dc67</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>x_bn.PinRegistration</sys_name>
         <sys_package display_value="BookNow" source="x_bn">fa506eb3b32113009b67a13816a8dc58</sys_package>
         <sys_policy/>
         <sys_scope display_value="BookNow">fa506eb3b32113009b67a13816a8dc58</sys_scope>
         <sys_update_name>sys_client_extension_instance_75544c07b3c13300d66e85d516a8dc67</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-30 15:50:50</sys_updated_on>
-        <ui_script display_value="x_bn.PinRegistration">b9544c07b3c13300d66e85d516a8dc64</ui_script>
+        <sys_updated_on>2019-04-30 16:15:46</sys_updated_on>
+        <ui_script display_value="x_bn.DivvyTemplate">b77abaf5b3f513009b67a13816a8dc41</ui_script>
     </sys_client_extension_instance>
 </record_update>
