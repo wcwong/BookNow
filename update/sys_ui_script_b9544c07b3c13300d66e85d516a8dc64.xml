@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
     <sys_ui_script action="INSERT_OR_UPDATE">
         <active>true</active>
-        <description/>
+        <description>Implements extension point x_bn.PinRegistration</description>
         <global>false</global>
-        <name>x_bn.DivvyTemplate</name>
+        <name>x_bn.PinRegistration</name>
         <script><![CDATA[(function(pinRegistry) {
 	var table = "x_bn_dock";
 	var fields = "name,latitude,longitude,comment";
@@ -26,20 +26,20 @@
 		}
 	}
 }(pinRegistry));]]></script>
-        <script_name>DivvyTemplate</script_name>
+        <script_name>PinRegistration</script_name>
         <sys_class_name>sys_ui_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-05-01 22:19:49</sys_created_on>
-        <sys_id>b77abaf5b3f513009b67a13816a8dc41</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>x_bn.DivvyTemplate</sys_name>
+        <sys_created_on>2019-04-30 15:50:50</sys_created_on>
+        <sys_id>b9544c07b3c13300d66e85d516a8dc64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_bn.PinRegistration</sys_name>
         <sys_package display_value="BookNow" source="x_bn">fa506eb3b32113009b67a13816a8dc58</sys_package>
         <sys_policy/>
         <sys_scope display_value="BookNow">fa506eb3b32113009b67a13816a8dc58</sys_scope>
-        <sys_update_name>sys_ui_script_b77abaf5b3f513009b67a13816a8dc41</sys_update_name>
+        <sys_update_name>sys_ui_script_b9544c07b3c13300d66e85d516a8dc64</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-02 16:23:23</sys_updated_on>
-        <ui_type/>
+        <sys_updated_on>2019-04-30 15:53:23</sys_updated_on>
+        <ui_type>0</ui_type>
         <use_scoped_format>false</use_scoped_format>
     </sys_ui_script>
 </record_update>

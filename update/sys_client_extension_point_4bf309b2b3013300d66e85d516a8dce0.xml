@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_client_extension_point">
+    <sys_client_extension_point action="INSERT_OR_UPDATE">
+        <api_name>x_bn.PinRegistration</api_name>
+        <description/>
+        <example><![CDATA[(function(pinRegistry) {
+	pinRegistry['x_bn_location'] = {
+		getPoints : function(SWpoint, NEpoint, callback) {
+			var table = "x_bn_location";
+            var fields = "name,latitude,longitude,sys_id";
+			//this default implementation is available for any point source
+			x_bn.GetPoints.getPointsForTable(table, fields, SWpoint, NEpoint, callback);
+		},
+		
+		getTemplate : function(point) {
+			var template = "<b>" + point.name + "</b><br />";
+			template += "Chicago, IL" + "</br />";
+			template += "<a href='/x_bn_location.do?sys_id=" + point.sys_id + "'>Click</a>";
+			return template;
+		},
+		
+		getCustomMarker : function() {
+			return "/landmark.png";
+		}
+	}
+}(pinRegistry));]]></example>
+        <name>PinRegistration</name>
+        <public>false</public>
+        <restrict_scope>false</restrict_scope>
+        <sys_class_name>sys_client_extension_point</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-30 02:27:28</sys_created_on>
+        <sys_id>4bf309b2b3013300d66e85d516a8dce0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PinRegistration</sys_name>
+        <sys_package display_value="BookNow" source="x_bn">fa506eb3b32113009b67a13816a8dc58</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BookNow">fa506eb3b32113009b67a13816a8dc58</sys_scope>
+        <sys_update_name>sys_client_extension_point_4bf309b2b3013300d66e85d516a8dce0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-30 02:55:29</sys_updated_on>
+    </sys_client_extension_point>
+</record_update>

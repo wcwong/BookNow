@@ -3,10 +3,10 @@
         <element label="Comment" max_length="1000" name="comment" type="string"/>
         <element choice="1" label="Condition" max_length="40" name="condition" type="choice">
             <choice>
-                <element label="Like new" sequence="1" value="4"/>
-                <element label="Fair" sequence="2" value="3"/>
-                <element label="Major wear" sequence="3" value="2"/>
-                <element label="Inoperable" sequence="4" value="1"/>
+                <element inactive_on_update="false" label="Like new" sequence="1" value="4"/>
+                <element inactive_on_update="false" label="Fair" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Major wear" sequence="3" value="2"/>
+                <element inactive_on_update="false" label="Inoperable" sequence="4" value="1"/>
             </choice>
         </element>
         <element label="Serial number" max_length="100" name="serial_number" type="string"/>
