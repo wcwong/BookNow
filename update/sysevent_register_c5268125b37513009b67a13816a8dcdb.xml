@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
     <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
         <description>Indicates that a reservation has been updated</description>
         <event_name>x_bn.reservation_updated</event_name>
         <fired_by>A business rule after  update</fired_by>
