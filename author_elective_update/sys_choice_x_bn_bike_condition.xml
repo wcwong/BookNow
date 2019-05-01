@@ -10,32 +10,13 @@
             <name>x_bn_bike</name>
             <sequence>1</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:12:41</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0259048bb3c13300d66e85d516a8dc33</sys_id>
+            <sys_id>890a451fb3813300d66e85d516a8dce8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:12:41</sys_updated_on>
-            <value>4</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>condition</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Like new</label>
-            <language>en</language>
-            <name>x_bn_bike</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-01 14:57:27</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>43701971b3b513009b67a13816a8dc4c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-01 14:57:37</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,13 +29,32 @@
             <name>x_bn_bike</name>
             <sequence>1</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:14:22</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>eab988cbb3c13300d66e85d516a8dc95</sys_id>
+            <sys_id>c10a451fb3813300d66e85d516a8dcf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:14:22</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>condition</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Like new</label>
+            <language>en</language>
+            <name>x_bn_bike</name>
+            <sequence>1</sequence>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c90a451fb3813300d66e85d516a8dce8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -67,13 +67,13 @@
             <name>x_bn_bike</name>
             <sequence>2</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:14:22</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2eb988cbb3c13300d66e85d516a8dc95</sys_id>
+            <sys_id>050a451fb3813300d66e85d516a8dcf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:14:22</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -86,13 +86,13 @@
             <name>x_bn_bike</name>
             <sequence>2</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:12:41</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4259048bb3c13300d66e85d516a8dc33</sys_id>
+            <sys_id>450a451fb3813300d66e85d516a8dcf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:12:41</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -104,14 +104,14 @@
             <language>en</language>
             <name>x_bn_bike</name>
             <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-01 14:57:43</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>97651971b3b513009b67a13816a8dc06</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-01 14:57:54</sys_updated_on>
+            <sys_id>850a451fb3813300d66e85d516a8dcf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -124,13 +124,13 @@
             <name>x_bn_bike</name>
             <sequence>3</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:14:22</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6eb988cbb3c13300d66e85d516a8dc95</sys_id>
+            <sys_id>090a451fb3813300d66e85d516a8dcf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:14:22</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -143,13 +143,13 @@
             <name>x_bn_bike</name>
             <sequence>3</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:12:41</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8259048bb3c13300d66e85d516a8dc33</sys_id>
+            <sys_id>490a451fb3813300d66e85d516a8dcf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:12:41</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -161,14 +161,14 @@
             <language>en</language>
             <name>x_bn_bike</name>
             <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-01 14:58:04</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b67599b1b3b513009b67a13816a8dc44</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-01 14:58:12</sys_updated_on>
+            <sys_id>c50a451fb3813300d66e85d516a8dcf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -181,13 +181,13 @@
             <name>x_bn_bike</name>
             <sequence>4</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:14:22</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>aeb988cbb3c13300d66e85d516a8dc95</sys_id>
+            <sys_id>0d0a451fb3813300d66e85d516a8dcf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:14:22</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -200,13 +200,13 @@
             <name>x_bn_bike</name>
             <sequence>4</sequence>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:12:41</sys_created_on>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c259048bb3c13300d66e85d516a8dc33</sys_id>
+            <sys_id>890a451fb3813300d66e85d516a8dcf5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:12:41</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -218,14 +218,14 @@
             <language>en</language>
             <name>x_bn_bike</name>
             <sequence>4</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-01 14:58:19</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cc95dd71b3b513009b67a13816a8dc1b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-01 14:58:25</sys_updated_on>
+            <sys_id>c90a451fb3813300d66e85d516a8dcf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
             <value>1</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -233,8 +233,8 @@
             <name>x_bn_bike</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>system</sys_created_by>
-            <sys_created_on>2019-04-30 16:14:22</sys_created_on>
-            <sys_id>a2b988cbb3c13300d66e85d516a8dc96</sys_id>
+            <sys_created_on>2019-05-01 15:33:44</sys_created_on>
+            <sys_id>010a451fb3813300d66e85d516a8dcf6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>condition</sys_name>
             <sys_package display_value="BookNow" source="x_bn">fa506eb3b32113009b67a13816a8dc58</sys_package>
@@ -242,7 +242,7 @@
             <sys_scope display_value="BookNow">fa506eb3b32113009b67a13816a8dc58</sys_scope>
             <sys_update_name>sys_choice_x_bn_bike_condition</sys_update_name>
             <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2019-04-30 16:14:22</sys_updated_on>
+            <sys_updated_on>2019-05-01 15:33:44</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
