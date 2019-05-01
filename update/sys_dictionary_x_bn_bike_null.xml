@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-01 14:33:00</sys_created_on>
-        <sys_id>500b8c4fb3c13300d66e85d516a8dc7d</sys_id>
+        <sys_id>bb9ac99fb3813300d66e85d516a8dc2a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_bn_bike</sys_name>
         <sys_package display_value="BookNow" source="x_bn">fa506eb3b32113009b67a13816a8dc58</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="BookNow">fa506eb3b32113009b67a13816a8dc58</sys_scope>
         <sys_update_name>sys_dictionary_x_bn_bike_NULL</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-04-30 16:20:00</sys_updated_on>
+        <sys_updated_on>2019-05-01 15:36:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
