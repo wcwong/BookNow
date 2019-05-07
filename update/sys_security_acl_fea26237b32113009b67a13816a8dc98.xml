@@ -5,7 +5,6 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_bn_reservation</description>
-        <express_security>false</express_security>
         <name>x_bn_reservation</name>
         <operation display_value="write">write</operation>
         <script/>
